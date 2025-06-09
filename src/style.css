@@ -1,3 +1,71 @@
 body {
   margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  background-color: black;
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.site-header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  position: relative;
+  left: 50px;
+  height: 40px;
+  width: 40px;
+}
+
+.nav-bar {
+  position: relative;
+  right: 50px;
+}
+
+.category-list {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+}
+
+.list-item {
+  margin: 0 10px;
+}
+
+.is-active::after{
+  content: " ";
+  display: block;
+  position: relative;
+}
+
+.list-item:hover {
+  color: #00acdc;
+}
+
+.list-item:first-child {
+  margin-left: 0;
+  margin-right: 10px;
+  position: relative;
+}
+
+.list-item:last-child {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.category-list a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 0;
 }
