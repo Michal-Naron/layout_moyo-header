@@ -73,7 +73,6 @@ body {
   text-align: center;
   height: 60px;
   display: flex;
-  padding: auto;
   align-items: center;
   align-content: space-around;
 }
